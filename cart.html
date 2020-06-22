@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>My Cart</title>
+
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+  <link rel="icon" type="image/png" href="">
+
+  <meta name="csrf-token" content="06PXUzzDmb3kXyBIWyzlvouwpa90INPxaVmbKNVL">
+
+  
+
+
+
+    
+
+
+
+    
+
+
+<meta property="og:title" content="My Cart">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://upstreamint.org/cart">
+<meta property="og:image" content="https://cdn.givecloud.co/s/files/1/0000/0569/files/big-logo-white-trans-3.png">
+<meta property="og:description" content="">
+<meta property="og:site_name" content="Upstream International">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="My Cart">
+<meta name="twitter:image" content="https://cdn.givecloud.co/s/files/1/0000/0569/files/big-logo-white-trans-3.png">
+<meta name="twitter:description" content="">
+
+
+
+
+  <!--[if IE 9]>
+  <link href="https://cdn.givecloud.co/gh/coliff/bootstrap-ie8/css/bootstrap-ie9.min.css" rel="stylesheet">
+  <script src="https://cdn.givecloud.co/npm/typedarray@0.0.6"></script>
+<![endif]-->
+<!--[if lte IE 8]>
+  <link href="https://cdn.givecloud.co/gh/coliff/bootstrap-ie8/css/bootstrap-ie8.min.css" rel="stylesheet">
+  <script src="https://cdn.givecloud.co/combine/npm/html5shiv@3.7.3,npm/typedarray@0.0.6"></script>
+<![endif]-->
+
+  <link rel="stylesheet" href="https://cdn.givecloud.co/combine/npm/animate.css@3.7.0/animate.min.css,npm/bootstrap-datepicker@1.7.1/dist/css/bootstrap-datepicker.min.css,npm/@fancyapps/fancybox@3.4.2/dist/jquery.fancybox.css,npm/owl.carousel@2.3.3/dist/assets/owl.carousel.min.css,npm/owl.carousel@2.3.3/dist/assets/owl.theme.default.min.css,npm/odometer@0.4.8/themes/odometer-theme-minimal.css,npm/flipclock@0.7.7/compiled/flipclock.css,npm/ladda@1.0.6/dist/ladda-themeless.min.css,npm/modal-video@2.4.2/css/modal-video.min.css,npm/quill@1.3.6/dist/quill.snow.css,npm/vue-toasted@1.1.26/dist/vue-toasted.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i,900,900i%7CMontserrat:300,300i,400,400i,700,700i,900,900i">
+<link rel="stylesheet" href="static/global/styles/theme.scss-v=527528270e.css">
+<script type="text/javascript" src="https://cdn.givecloud.co/combine/npm/es5-shim@4.5.13/es5-shim.min.js,npm/es6-shim@0.35.5/es6-shim.min.js,npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.givecloud.co/s/files/1/0000/0569/files/custom-fonts.css?v=1">
+</head>
+<body class="template--cart currency-usd overlayed-header ">
+
+
+  <header class="header-full headroom headroom--top headroom--not-bottom">
+
+  
+
+      
+              <div class="top-bar-alt d-none d-lg-block d-xl-block">
+    <div class="container">
+      <div class="d-flex">
+        <div class="p-1">
+          <ul class="nav">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+          </ul>
+        </div>
+        <div class="ml-auto p-1">
+          <ul class="nav">
+
+            
+            
+
+            
+
+            
+              
+                <li id="nav-signin" class="nav-item dropdown">
+                  <a class="nav-link" href="account/login.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My Account <i class="fa fa-chevron-down fa-fw"></i></a>
+                  <div class="dropdown-menu dropdown-menu-right p-4">
+                    <div style="width:290px;">
+                      <h3 class="card-title mb-4 text-left">My Account</h3>
+                      <form action="account/login.html" method="post">
+                        <input type="hidden" name="_token" value="06PXUzzDmb3kXyBIWyzlvouwpa90INPxaVmbKNVL">
+                        <div class="form-group labelify">
+                          <label><i class="fa fa-envelope-o"></i> Email</label>
+                          <input type="email" name="email" autocomplete="username" class="form-control">
+                        </div>
+                        <div class="form-group labelify">
+                          <label><i class="fa fa-lock"></i> Password</label>
+                          <input type="password" name="password" autocomplete="current-password" class="form-control">
+                        </div>
+                        <div class="custom-control custom-checkbox mt-0 mb-3">
+                          <input type="checkbox" class="custom-control-input" id="rememberMeInput" name="remember_me" value="1">
+                          <label class="custom-control-label" for="rememberMeInput">Remember me</label>
+                        </div>
+                        <div class="text-center mb-2">
+                          <button type="submit" class="btn btn-block btn-pill btn-primary"><i class="fa fa-log-in"></i> Sign-In</button>
+                          <div class="text-center mt-2 text-sm">
+                            <a href="account/reset-password.html">I Forgot My Password</a>
+                          </div>
+                        </div>
+                        <hr>
+                        <div class="text-sm text-center">
+                          <a href="account/register.html" class="btn btn-block btn-pill btn-secondary"><i class="fa fa-log-in"></i> Create an Account</a>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </li>
+              
+            
+
+            
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      
+
+          <div class="top-bar font-lg font-sans font-upper">
+    <nav class="container">
+      <div class="d-flex top-bar-min-height">
+
+        <div class="side-bar-open d-lg-none d-xl-none py-2 mr-3 align-self-center"><i class="fa fa-navicon"></i></div>
+
+        <div class="brand p-2 align-self-center">
+          
+            <a href="index.html" >
+              
+                <img src="https://cdn.givecloud.co/s/files/1/0000/0569/files/big-logo-white-trans-3.png" class="logo-full"><img src="https://cdn.givecloud.co/s/files/1/0000/0569/files/big-logo-white-trans-2.png" class="logo-condensed">
+              
+            </a>
+          
+        </div>
+
+        <div class="mobile-menu ml-auto py-2 align-self-center text-right">
+          <div class="d-none d-sm-inline-block d-md-inline-block">
+            
+              
+              
+              
+              
+              
+              
+          </div>
+          
+            <a href="https://upstreamint.givecloud.co/sponsor-children" class="btn btn-sm font-weight-normal btn-primary my-1 btn-pill">Sponsor</a>
+          
+          
+            <a href="funds.html" class="btn btn-sm font-weight-normal btn-secondary my-1 ml-1 btn-pill">Donate</a>
+          
+        </div>
+
+        
+          <div class="main-menu ml-auto py-2">
+            
+<ul class="nav">
+    
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link " href="https://upstreamint.givecloud.co" >
+            HOME
+          </a>
+        </li>
+      
+    
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link " href="our-story.html" >
+            OUR STORY
+          </a>
+        </li>
+      
+    
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link " href="what-we-do.html" >
+            WHAT WE DO
+          </a>
+        </li>
+      
+    
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link " href="sponsor-children.html" >
+            SPONSORSHIP
+          </a>
+        </li>
+      
+    
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link " href="join-trips.html" >
+            TRIPS
+          </a>
+        </li>
+      
+    
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link " href="https://upstreamint.givecloud.co/journal" >
+            JOURNAL
+          </a>
+        </li>
+      
+    
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link " href="contact.html" >
+            CONTACT
+          </a>
+        </li>
+      
+    
+</ul>
+
+            
+
+
+          </div>
+        
+
+        <div class="main-menu action-menu py-2">
+          <ul class="nav">
+            
+            
+              <li class="nav-item">
+                <a class="nav-link" href="cart.html"><i class="fa fa-child"></i>&nbsp;<span class="badge badge-pill badge-dark -cart-count">0</span></a>
+              </li>
+            
+            
+              <li class="nav-item nav-attn-primary">
+                <a class="nav-link" href="https://upstreamint.givecloud.co/sponsor-children" class="btn">Sponsor</a>
+              </li>
+            
+            
+              <li class="nav-item ml-1 nav-attn-secondary">
+                <a class="nav-link" href="funds.html" class="btn">Donate</a>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+    
+
+
+      
+
+
+
+    
+
+    <div class="side-bar">
+    <div class="side-bar-body">
+      <div class="side-bar-close pull-right"><i class="fa fa-times"></i></div>
+
+      
+        
+      
+
+      <ul class="nav flex-column" data-children=".nav-item" id="side-bar-nav">
+        
+          
+            <li class="nav-item">
+                  <a class="nav-link" href="https://upstreamint.givecloud.co" >HOME</a>
+                </li>
+          
+        
+          
+            <li class="nav-item">
+                  <a class="nav-link" href="our-story.html" >OUR STORY</a>
+                </li>
+          
+        
+          
+            <li class="nav-item">
+                  <a class="nav-link" href="what-we-do.html" >WHAT WE DO</a>
+                </li>
+          
+        
+          
+            <li class="nav-item">
+                  <a class="nav-link" href="sponsor-children.html" >SPONSORSHIP</a>
+                </li>
+          
+        
+          
+            <li class="nav-item">
+                  <a class="nav-link" href="join-trips.html" >TRIPS</a>
+                </li>
+          
+        
+          
+            <li class="nav-item">
+                  <a class="nav-link" href="https://upstreamint.givecloud.co/journal" >JOURNAL</a>
+                </li>
+          
+        
+          
+            <li class="nav-item">
+                  <a class="nav-link" href="contact.html" >CONTACT</a>
+                </li>
+          
+        
+
+        
+          <li class="dropdown-divider"></li>
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="cart.html"><i class="fa fa-shopping-cart"></i> <span class="badge badge-pill badge-light -cart-count">0</span></a>
+            </li>
+          
+        
+
+        
+          <li class="dropdown-divider"></li>
+          
+            <li class="nav-item">
+              <a class="nav-link" href="account/login.html">My Account</a>
+            </li>
+          
+        
+
+        
+
+      </ul>
+    </div>
+  </div>
+
+
+</header>
+
+<div class="header-spacer  with-top-bar-alt"></div>
+
+
+
+
+
+  
+    <div class="mb-4">
+        
+
+
+
+
+
+  
+
+
+<section class="title-bar " style="">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm-12 col-md-6">
+        
+
+        <h1 class="text-center text-md-left">Your Payment</h1>
+      </div>
+
+      
+
+      
+
+    </div>
+  </div>
+</section>
+
+    
+    </div>
+
+
+<div id="cart-app" v-if="cart" class="container body-min-height" can-cover-costs="1">
+    
+
+    <div v-if="step == 0" class="d-flex justify-content-center my-5">
+        <img width="64" height="64" src="static/global/assets/spinner.gif" alt="" >
+    </div>
+
+    <template v-cloak>
+        <div class="d-none d-md-block">
+            <div class="d-flex justify-content-center">
+                <ul class="nav nav-pills nav-secondary">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" :class="{active: step === 1}" id="cart-tab">
+                            <i class="fa fa-check-square-o fa-fw"></i> Cart
+                        </a>
+                    </li>
+                    <li class="p-2 mx-md-1 mx-lg-3" :class="{'text-muted': step > 1}"><i class="fa fa-chevron-right"></i></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" :class="{active: step === 2, disabled: step < 2}" :disabled="step < 2" id="billing-tab">
+                            <i class="fa fa-fw" :class="[step > 1 ? 'fa-check-square-o' : 'fa-square-o']"></i>
+                            <template v-if="cart.shippable_item_count > 0">
+                                Address
+                            </template>
+                            <template v-else>
+                                Address
+                            </template>
+                        </a>
+                    </li>
+                    <template v-if="cart.shippable_item_count > 0">
+                        <li class="p-2 mx-md-1 mx-lg-3" :class="{'text-muted': step > 2}"><i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" :class="{active: step === 3, disabled: step < 3}" :disabled="step < 3" id="billing-tab">
+                                <i class="fa fa-fw" :class="[step > 2 ? 'fa-check-square-o' : 'fa-square-o']"></i> Shipping
+                            </a>
+                        </li>
+                    </template>
+                    <li class="p-2 mx-md-1 mx-lg-3" :class="{'text-muted': step > 3}"><i class="fa fa-chevron-right"></i></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" :class="{active: step === 4, disabled: step < 4}" :disabled="step < 4" id="payment-tab">
+                            <i class="fa fa-fw" :class="[step > 3 ? 'fa-check-square-o' : 'fa-square-o']"></i> Payment
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="d-block d-md-none text-center text-secondary">
+            <i class="fa fa-fw fa-circle"></i>
+            <i class="fa fa-fw" :class="{'fa-circle':step == 2, 'fa-circle-o':step < 2}"></i>
+            <i class="fa fa-fw" :class="{'fa-circle':step == 3, 'fa-circle-o':step < 3}"></i>
+            <i class="fa fa-fw" :class="{'fa-circle':step == 4, 'fa-circle-o':step < 4}"></i>
+        </div>
+    </template>
+
+    <div v-cloak class="tab-content my-5">
+
+        <template v-if="step === 1">
+
+            
+
+            <div class="d-none d-md-block">
+                <div class="row no-gutters">
+                    <div class="col-8"><h4 class="cart-heading">Item</h4></div>
+                    <div class="col-1 text-right"><h4 class="cart-heading">Price</h4></div>
+                    <div class="col-2 text-center"><h4 class="cart-heading">Qty</h4></div>
+                    <div class="col-1 text-right"><h4 class="cart-heading">Total</h4></div>
+                </div>
+            </div>
+            <div class="cart__line-items">
+                <div v-for="item in cart.line_items" class="cart__line-items--item row no-gutters mt-3" v-bind:class="{'text-sm': item.is_locked, 'border-top pt-3': !item.is_locked }">
+                    <div class="col-md-8 col-12" v-bind:class="{'pl-5': item.is_locked }">
+                        <div class="media">
+                            <a :href="item.url" v-if="item.thumbnail" class="d-inline-block mr-3">
+                                <div class="offset-badges">
+                                    <img class="rounded" v-bind:class="{'thumb-md': !item.is_locked, 'thumb-sm-square': item.is_locked }" :src="item.thumbnail" :alt="item.name + ' (' + item.sku + ')'">
+                                    <template v-if="item.is_locked">
+                                        <div class="badge badge-primary badge-pill">${ item.quantity }</div>
+                                    </template>
+                                </div>
+                            </a>
+                            <div class="media-body">
+                            <h5 class="my-0" v-bind:class="{'text-sm': item.is_locked }">
+                                <a :href="item.url">${ item.name }</a> <small class="text-sm text-muted">${ item.sku }</small>
+                            </h5>
+                            <div v-if="item.shipping_expectation" class="mt-2">
+                                <small class="text-muted">${ item.shipping_expectation }</small>
+                            </div>
+                            <div v-if="item.recurring_frequency_short" class="mt-2">
+                                <div>
+                                ${ money(item.recurring_amount) }/${ item.recurring_frequency_short } on the ${ item.recurring_day | ordinal }
+                                </div>
+                                <div v-if="item.cover_costs_recurring_amount">
+                                    <span class="badge badge-subtle">+ ${ money(item.cover_costs_recurring_amount) } for Cover the Fees</span>
+                                </div>
+                            </div>
+                            <div v-if="item.discounts.length > 0" class="mt-2">
+                                <span class="badge badge-danger">${ item.discounts[0].code }</span>
+                            </div>
+                            <div v-if="item.form_fields" class="mt-2 form-fields text-sm">
+                                <div v-for="form_field in item.form_fields">
+                                    <strong>${ form_field.field.label }:</strong>
+                                    <span>${ form_field.value }</span>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <template v-if="!item.is_locked">
+                        <div class="col-md-4">
+                            <div class="d-none d-md-block">
+                                <div class="row no-gutters">
+                                    <div class="col-md-3 col-4 text-right">
+                                        <template v-if="item.is_locked">
+                                            <span class="text-muted">${ money(item.price) }</span>
+                                        </template>
+                                        <template v-else-if="item.original_price > item.price">
+                                            <span class="font-weight-bold text-danger">${ money(item.price) }</span>
+                                            <span class="line-thru text-muted">${ money(item.original_price) }</span>
+                                        </template>
+                                        <template v-else-if="item.original_price <= item.price">
+                                            ${ money(item.price) }
+                                        </template>
+                                    </div>
+                                    <div class="col-md-6 col-4 text-center">
+                                        <template v-if="item.quantity_editable">
+                                            
+                                                <select v-model="item.quantity" @change="updateQuantity(item)" class="form-control d-inline-block" style="width:80px;">
+                                                    <option v-for="n in 25 + 1" :value="n-1">${ n-1 }</option>
+                                                </select>
+                                            
+                                        </template>
+                                        <template v-else>
+                                            ${ item.quantity }
+                                        </template>
+                                    </div>
+                                    <div class="col-md-3 col-4 text-right">
+                                        <div>${ money(item.line_price) }</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-block d-md-none mt-1 text-right">
+                                ${ item.quantity } @
+                                <template v-if="item.original_price > item.price">
+                                    <span class="font-weight-bold text-danger">${ money(item.price) }</span>
+                                    <span class="line-thru text-muted">${ money(item.original_price) }</span>
+                                </template>
+                                <template v-else-if="item.original_price <= item.price">
+                                    ${ money(item.price) }
+                                </template>
+                            </div>
+
+                            <template v-if="!item.is_locked">
+                                <div class="text-right mt-1">
+                                    <small><a class="link" @click="removeItem(item)" href="#"><i class="fa fa-times"></i> Remove</a></small>
+                                </div>
+                            </template>
+                        </div>
+                    </template>
+                </div>
+            </div>
+            <div v-if="cart" class="mb-4 mt-3 pt-3 border-top">
+                <template v-if="cart.total_price > 0">
+                    <div v-if="cart.shipping_price > 0 || cart.tax_price > 0 || (cart.cover_costs_amount > 0 && cart.cover_costs_enabled)" class="row no-gutters cart-total pb-2 mb-3 border-bottom">
+                        <div class="col-2 offset-8 text-right"><h4 class="cart-heading">Subtotal</h4></div>
+                        <div class="col-2 text-right">${ money(cart.subtotal_price) }</div>
+                    </div>
+                    <div v-if="cart.shipping_price > 0" class="row no-gutters pb-1 mb-1">
+                        <div class="col-2 offset-8 text-right"><h5 class="cart-heading">Shipping<br><small>${ cart.shipping_method }</small></h5></div>
+                        <div class="col-2 text-right"><small>${ money(cart.shipping_price) }</small></div>
+                    </div>
+                    <div v-if="cart.tax_price > 0" class="row no-gutters pb-2 mb-3 border-bottom">
+                        <div class="col-2 offset-8 text-right"><h5 class="cart-heading">Taxes</h5></div>
+                        <div class="col-2 text-right"><small>${ money(cart.tax_price) }</small></div>
+                    </div>
+                    <div v-if="cart.cover_costs_amount > 0 && cart.cover_costs_enabled" class="row no-gutters pb-2 mb-3 border-bottom">
+                        <div class="col-2 offset-8 text-right"><h5 class="cart-heading">Cover the Fees</h5></div>
+                        <div class="col-2 text-right"><small>${ money(cart.cover_costs_amount) }</small></div>
+                    </div>
+                </template>
+                <div class="row no-gutters pb-2 mb-3 font-weight-bold" :class="{ 'border-bottom': cart.recurring_item_count > 0 }">
+                    <div v-if="show_cover_costs" class="col-8" ref="cover_fees" class="wow fadeInUp">
+                        <div class="custom-control custom-checkbox">
+                            <input id="inputCoverFees" type="checkbox" class="custom-control-input" v-on:click="updateCoverCosts" :checked="cart.cover_costs_enabled">
+                            <label class="custom-control-label" for="inputCoverFees">
+                                Cover the fees to make the most of my donation.
+                            </label>
+                        </div>
+                    </div>
+                    <div :class="{ 'offset-8': !show_cover_costs }" class="col-2 text-right">
+                        <h4 class="cart-heading">
+                            <template v-if="cart.recurring_item_count > 0">Total Today</template>
+                            <template v-else>Total</template>
+                        </h4>
+                    </div>
+                    <div class="col-2 text-right">${ money(cart.total_price, true) }</div>
+                </div>
+                <template v-if="cart.recurring_item_count > 0">
+                    <div class="row no-gutters font-weight-bold pb-2 mb-3">
+                        <div class="col-2 offset-8 text-right"><h4 class="cart-heading">Total Recurring</h4></div>
+                        <div class="col-2 text-right">
+                            <div v-for="(amount, period) in recurring_amounts" v-if="amount > 0" class="mb-1">
+                                ${ money(amount, true) }/${ period }
+                            </div>
+                        </div>
+                    </div>
+                </template>
+            </div>
+
+            
+                <div class="text-center mb-4">
+                    <a href="index.html" class="btn btn-pill px-3 btn-outline-secondary">
+                        Continue Shopping
+                    </a>
+                </div>
+            
+
+            
+                <div class="row no-gutters mb-4">
+                    
+                        <div class="col-sm-5">
+                            <h5>Special Notes</h5>
+                            <p><small>Leave a note or special instructions.</small></p>
+                            <div class="form-group">
+                                <textarea class="form-control form-control-sm" name="notes" rows="2" name="comments" v-model="input.comments"></textarea>
+                            </div>
+                        </div>
+                    
+                    <div class="col"></div>
+                    
+                        <div class="col-sm-5">
+                            <h5>Promotion Codes</h5>
+                            <p><small>Enter a discount code below, then click apply.</small></p>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="text" v-model="promocode" class="form-control">
+                                    <div class="input-group-append">
+                                        <button type="button" @click="applyPromo" class="btn btn-secondary">Apply</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+
+            
+                <p>Upstream Intl Inc. is a 501(c)(3) tax-exempt charity. All contributions designated for specific projects shall be applied to those projects, and we may assess up to 10 percent to be used for administering the gift. Occasionally, we receive more contributions for a given project than can be wisely applied to that project. When that happens, we use these funds to meet a similar pressing need. Please see our <em><a href="https://upstreamint.givecloud.co/legal%20">gift acceptance policy</a></em> for more information.&nbsp;&nbsp;</p>
+            
+
+            <div class="text-center">
+                <button id="btn-step-1-next" @click="proceedToCheckout" class="btn btn-lg btn-pill btn-primary" :disabled="!valid_cart">
+                    Checkout <i class="fa fa-arrow-right"></i>
+                </button>
+            </div>
+        </template>
+
+        <template v-if="step === 2">
+
+            
+                <div v-if="!cart.account" class="card mb-5">
+                    <div class="card-body">
+                        <div class="row">
+
+                            <!-- login heading -->
+                            <div class="col-12 col-md-5">
+                                <h5>Already Have an Account?</h5>
+                                <div class="mb-0"><small>Login with your email and password for quicker checkout.</small></div>
+                                <div class="d-block d-md-none mb-3"></div>
+                            </div>
+
+                            <!-- login form -->
+                            <div class="col-12 col-md-7 text-right">
+                                <form name="cartLoginForm" @submit.prevent="submitLoginForm" class="form-inline justify-content-end" method="post">
+                                    <label class="sr-only" for="inputLoginEmail">Email</label>
+                                    <div class="input-group mb-2 mr-sm-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fa fa-envelope-o"></i></div>
+                                        </div>
+                                        <input type="email" class="form-control" style="width:180px;" id="inputLoginEmail" name="email" autocomplete="username" placeholder="Email">
+                                    </div>
+
+                                    <label class="sr-only" for="inputLoginPassword">Password</label>
+                                    <div class="input-group mb-2 mr-sm-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fa fa-lock"></i></div>
+                                        </div>
+                                        <input type="password" class="form-control" style="width:130px;" id="inputLoginPassword" name="password" autocomplete="current-password" placeholder="Password">
+                                    </div>
+
+                                    <button type="submit" class="btn btn-secondary mb-2">Login <i class="fa fa-chevron-right"></i></button>
+                                </form>
+                                <div class="mt-1"><small><a href="account/reset-password.html"><i class="fa fa-question-circle"></i> I forgot my password.</a></small></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+
+            <form @submit.prevent="submitCheckoutForm" class="row" :class="{ 'was-validated': checkoutValidated }" data-vv-scope="checkout" method="post" novalidate>
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <h4>Billing</h4>
+                    </div>
+                    <div class="mb-5">
+                        
+                            <div class="form-group">
+                                <div class="btn-group-toggle mb-3">
+                                    <label v-for="account_type in account_types" class="btn btn-outline-dark" :class="{ active: input.account_type_id == account_type.id }">
+                                        <input type="radio" name="account_type_id" v-model="input.account_type_id" :value="account_type.id"> ${ account_type.name }
+                                    </label>
+                                </div>
+                            </div>
+                        
+
+                        <div class="form-row">
+                            
+                            <div class="form-group col labelify" :class="{ 'has-errors': errors.has('checkout.billing_first_name') }">
+                                <label for="inputBillingFirstName">First Name</label>
+                                <input id="inputBillingFirstName" type="text" class="form-control" name="billing_first_name" v-model="input.billing_first_name" v-validate.initial="'required'" x-autocompletetype="given-name" autocompletetype="given-name" autocorrect="off" spellcheck="off" autocapitalize="off">
+                            </div>
+                            <div class="form-group col-6 labelify" :class="{ 'has-errors': errors.has('checkout.billing_last_name') }">
+                                <label for="inputBillingLastName">Last Name</label>
+                                <input id="inputBillingLastName" type="text" class="form-control" name="billing_last_name" v-model="input.billing_last_name" v-validate.initial="'required'" x-autocompletetype="surname" autocompletetype="family-name" autocorrect="off" spellcheck="off" autocapitalize="off">
+                            </div>
+                        </div>
+                        <div v-if="account_type.is_organization" class="form-group labelify" :class="{ 'has-errors': errors.has('checkout.billing_company') }">
+                            <label for="inputBillingCompany">Organization Name</label>
+                            <input id="inputBillingCompany" type="text" class="form-control" name="billing_company" v-model="input.billing_company" v-validate.initial="'required'" x-autocompletetype="org" autocompletetype="organization" autocorrect="off" spellcheck="off" autocapitalize="off">
+                        </div>
+                        <div class="form-group labelify" :class="{ 'has-errors': errors.has('checkout.billing_email') }">
+                            <label for="inputBillingEmail"><i class="fa fa-envelope-o"></i> Email</label>
+                            <input id="inputBillingEmail" type="text" class="form-control" name="billing_email" v-model="input.billing_email" v-validate.initial="'required|email'" x-autocompletetype="email" autocompletetype="email" autocorrect="off" spellcheck="off" autocapitalize="off">
+                        </div>
+                        
+                            <div class="form-group">
+                                <div class="custom-control custom-checkbox">
+                                    <input id="inputEmailOptIn" type="checkbox" class="custom-control-input" v-model="input.email_opt_in">
+                                    <label class="custom-control-label" for="inputEmailOptIn">Send me emails and updates.</label>
+                                </div>
+                            </div>
+                        
+                        <div class="form-group labelify" :class="{ 'has-errors': errors.has('checkout.billing_phone') }">
+                            <label for="inputBillingPhone"><i class="fa fa-phone"></i> Phone</label>
+                            <input id="inputBillingPhone" type="text" class="form-control" name="billing_phone" v-model="input.billing_phone" v-validate.initial="'required'" x-autocompletetype="phone-full" autocompletetype="tel" autocorrect="off" spellcheck="off" autocapitalize="off">
+                        </div>
+
+                        
+                            <div v-if="!cart.account" class="mt-4">
+                                <h5 class="mb-3">
+                                    Create Account
+                                </h5>
+                                <p>Enter a password and we'll save your info for next time.</p>
+                                <div class="form-group labelify" :class="{ 'has-errors': errors.has('checkout.password') }">
+                                    <label for="inputPassword"><i class="fa fa-lock"></i> Password</label>
+                                    <input id="inputPassword" type="password" class="form-control" name="password" v-model="input.password" v-validate.initial="'min:6'">
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <h4>
+                            Address
+                            <div v-if="cart.shippable_item_count > 0" class="form-check">
+                                <input type="checkbox" class="form-check-input" id="inputShipToBilling" v-model="input.ship_to_billing">
+                                <label class="form-check-label" for="inputShipToBilling">use this address for shipping</label>
+                            </div>
+                        </h4>
+                    </div>
+                    <div class="mb-5">
+                        <div class="form-group labelify" :class="{ 'has-errors': errors.has('checkout.billing_country_code') }">
+                            <label for="inputBillingCountry">Country</label>
+                            <select id="inputBillingCountry" class="form-control" name="billing_country_code" v-model="input.billing_country_code" v-validate.initial="'required'">
+                                <option></option>
+                                <option v-for="country in countries" :value="country.value">${ country.label }</option>
+                            </select>
+                        </div>
+                        <div class="form-group labelify" :class="{ 'has-errors': errors.has('checkout.billing_address1') }">
+                            <label for="inputBillingAddress1">Address</label>
+                            <input id="inputBillingAddress1" type="text" class="form-control" placeholder="Street and number, P.O. box, c/o." name="billing_address1" v-model="input.billing_address1" v-validate.initial="'required'" x-autocompletetype="address-line1" autocompletetype="address-line1" autocorrect="off" spellcheck="off" autocapitalize="off">
+                        </div>
+                        <div class="form-group labelify">
+                            <label for="inputBillingAddress2">Address 2</label>
+                            <input id="inputBillingAddress2" type="text" class="form-control" placeholder="Apartment, suite, unit, building, floor, etc." name="billing_address2" v-model="input.billing_address2" x-autocompletetype="address-line2" autocompletetype="address-line2" autocorrect="off" spellcheck="off" autocapitalize="off">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-7 labelify" :class="{ 'has-errors': errors.has('checkout.billing_city') }">
+                                <label for="inputBillingCity">City</label>
+                                <input id="inputBillingCity" type="text" class="form-control" name="billing_city" v-model="input.billing_city" v-validate.initial="'required'" x-autocompletetype="city" autocompletetype="city" autocorrect="off" spellcheck="off" autocapitalize="off">
+                            </div>
+                            <div class="form-group col-5 labelify" :class="{ 'has-errors': errors.has('checkout.billing_province_code') }">
+                                <label for="inputBillingProvince">${ billing_province_label }</label>
+                                <select v-if="billing_subdivisions" id="inputBillingProvince" class="form-control" name="billing_province_code" v-model="input.billing_province_code" v-validate.initial="billing_province_required">
+                                    <option></option>
+                                    <option v-for="(name, code) in billing_subdivisions" :value="code">${ name }</option>
+                                </select>
+                                <input v-else type="text" id="inputBillingProvince" class="form-control" name="billing_province_code" v-model="input.billing_province_code" v-validate="billing_province_required">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-7 labelify" :class="{ 'has-errors': errors.has('checkout.billing_zip') }">
+                                <label for="inputBillingZip">
+                                    <template v-if="input.billing_country_code == 'US'">ZIP</template>
+                                    <template v-else>Postal</template>
+                                </label>
+                                <input id="inputBillingZip" type="text" class="form-control" name="billing_zip" v-model="input.billing_zip" v-validate.initial="'required'" x-autocompletetype="postal-code" autocompletetype="postal-code" autocorrect="off" spellcheck="off" autocapitalize="off">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <template v-if="cart.shippable_item_count > 0 && !input.ship_to_billing">
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <h4>Shipping</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-5">
+                            <div v-if="account_type.is_organization" class="form-group labelify" :class="{ 'has-errors': errors.has('checkout.shipping_company') }">
+                                <label for="inputShippingEmail">Organization Name</label>
+                                <input id="inputShippingEmail" type="text" class="form-control" name="shipping_company" v-model="input.shipping_company" v-validate.initial="'required'">
+                            </div>
+                            <div class="form-row">
+                                
+                                <div class="form-group col labelify" :class="{ 'has-errors': errors.has('checkout.shipping_first_name') }">
+                                    <label for="inputShippingFirstName">First Name</label>
+                                    <input id="inputShippingFirstName" type="text" class="form-control" name="shipping_first_name" v-model="input.shipping_first_name" v-validate.initial="'required'">
+                                </div>
+                                <div class="form-group col-6 labelify" :class="{ 'has-errors': errors.has('checkout.shipping_last_name') }">
+                                    <label for="inputShippingLastName">Last Name</label>
+                                    <input id="inputShippingLastName" type="text" class="form-control" name="shipping_last_name" v-model="input.shipping_last_name" v-validate.initial="'required'">
+                                </div>
+                            </div>
+                            <div class="form-group labelify" :class="{ 'has-errors': errors.has('checkout.shipping_email') }">
+                                <label for="inputShippingEmail">Email</label>
+                                <input id="inputShippingEmail" type="text" class="form-control" name="shipping_email" v-model="input.shipping_email" v-validate.initial="'required|email'">
+                            </div>
+                            <div class="form-group labelify" :class="{ 'has-errors': errors.has('checkout.shipping_country_code') }">
+                                <label for="inputShippingCountry">Country</label>
+                                <select id="inputShippingCountry" class="form-control" name="shipping_country_code" v-model="input.shipping_country_code" v-validate.initial="'required'">
+                                    <option></option>
+                                    <option v-for="country in countries" :value="country.value">${ country.label }</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-5">
+                            <div class="form-group labelify" :class="{ 'has-errors': errors.has('checkout.shipping_address1') }">
+                                <label for="inputShippingAddress1">Address</label>
+                                <input id="inputShippingAddress1" type="text" class="form-control" placeholder="Street and number, P.O. box, c/o." name="shipping_address1" v-model="input.shipping_address1" v-validate.initial="'required'">
+                            </div>
+                            <div class="form-group labelify">
+                                <label for="inputShippingAddress2">Address 2</label>
+                                <input id="inputShippingAddress2" type="text" class="form-control" placeholder="Street and number, P.O. box, c/o." name="shipping_address2" v-model="input.shipping_address2">
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-7 labelify" :class="{ 'has-errors': errors.has('checkout.shipping_city') }">
+                                    <label for="inputShippingCity">City</label>
+                                    <input id="inputShippingCity" type="text" class="form-control" name="shipping_city" v-model="input.shipping_city" v-validate.initial="'required'">
+                                </div>
+                                <div class="form-group col-5 labelify" :class="{ 'has-errors': errors.has('checkout.shipping_province_code') }">
+                                    <label for="inputShippingProvince">${ shipping_province_label }</label>
+                                    <select v-if="shipping_subdivisions" id="inputShippingProvince" class="form-control" name="shipping_province_code" v-model="input.shipping_province_code" v-validate.initial="shipping_province_required">
+                                        <option></option>
+                                        <option v-for="(name, code) in shipping_subdivisions" :value="code">${ name }</option>
+                                    </select>
+                                    <input v-else type="text" id="inputShippingProvince" class="form-control" name="shipping_province_code" v-model="input.shipping_province_code" v-validate.initial="shipping_province_required">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-7 labelify" :class="{ 'has-errors': errors.has('checkout.shipping_zip') }">
+                                    <label for="inputShippingZip">
+                                        <template v-if="input.shipping_country_code == 'US'">ZIP</template>
+                                        <template v-else>Postal</template>
+                                    </label>
+                                    <input id="inputShippingZip" type="text" class="form-control" name="shipping_zip" v-model="input.shipping_zip" v-validate.initial="'required'">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+                <div class="col-md-12 text-center">
+                    <button id="btn-step-2-next" type="submit" class="btn btn-lg btn-pill btn-primary">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </button>
+                </div>
+            </form>
+        </template>
+
+        <template v-if="step === 3">
+            <form @submit.prevent="submitShippingForm" class="row mb-5" :class="{ 'was-validated': shipValidated }" method="post" novalidate>
+                <div class="col-12 text-center mb-5">
+                    <h4>Shipping</h4>
+                </div>
+                <div class="offset-3 col-6 text-center" :class="{ 'has-errors': !valid_shipping }">
+                    <div v-if="cart.shipping_methods.length > 0" class="btn-group-toggle btn-group-checked">
+                        <label v-for="method in cart.shipping_methods" :for="method.handle" class="btn mb-2 btn-block btn-outline-dark" :class="{active: method.value == input.shipping_method_value}">
+                            <input type="radio" name="shipping_method_value" v-model="input.shipping_method_value" :id="method.handle" :value="method.value">
+                            ${ method.title } <small v-if="method.price > 0">${ money(method.price) }</small>
+                        </label>
+                    </div>
+                    <div v-else>
+                        No Available Shipping Methods
+                    </div>
+                </div>
+                <div class="col-md-12 text-center mt-4">
+                    <button id="btn-step-3-next" type="submit" class="btn btn-lg btn-pill btn-primary">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </button>
+                </div>
+            </form>
+        </template>
+
+        <template v-if="step === 4">
+            <h4 class="text-center mb-4">Payment</h4>
+            <form @submit.prevent="submitPayForm" class="row mb-5" :class="{ 'was-validated': payValidated }" data-vv-scope="pay" method="post" novalidate>
+                <div class="col-12 col-md-5 offset-md-1 mb-4">
+                    <div v-if="cart.total_price > 0" class="pb-2 mb-3 border-bottom">
+                        <div v-if="cart.shippable_item_count > 0 || cart.tax_price > 0" class="row no-gutters cart-total pb-2 mb-3 border-bottom">
+                            <div class="col-6"><h4 class="cart-heading">Subtotal</h4></div>
+                            <div class="col-6 text-right">${ money(cart.subtotal_price) }</div>
+                        </div>
+                        <div v-if="cart.shippable_item_count > 0" class="row no-gutters pb-1 mb-1">
+                            <div class="col-6"><h5 class="cart-heading">Shipping<br><small>${ cart.shipping_method }</small></h5></div>
+                            <div class="col-6 text-right"><small>${ money(cart.shipping_price) }</small></div>
+                        </div>
+                        <div v-if="cart.tax_price > 0" class="row no-gutters pb-1 mb-1">
+                            <div class="col-6"><h5 class="cart-heading">Taxes</h5></div>
+                            <div class="col-6 text-right"><small>${ money(cart.tax_price) }</small></div>
+                        </div>
+                        <div v-if="cart.cover_costs_amount > 0 && cart.cover_costs_enabled" class="row no-gutters pb-1 mb-1">
+                            <div class="col-6"><h5 class="cart-heading">Cover the Fees</h5></div>
+                            <div class="col-6 text-right"><small>${ money(cart.cover_costs_amount) }</small></div>
+                        </div>
+                    </div>
+                    <div class="row no-gutters pb-2 mb-3 font-weight-bold border-bottom">
+                        <div class="col-6">
+                            <h4 class="cart-heading">
+                                <template v-if="cart.recurring_item_count > 0">Total Today</template>
+                                <template v-else>Total</template>
+                            </h4>
+                        </div>
+                        <div class="col-6 text-right">${ money(cart.total_price, true) }</div>
+                    </div>
+                    <template v-if="cart.recurring_item_count > 0">
+                        <div class="row no-gutters font-weight-bold pb-2 mb-3 border-bottom">
+                            <div class="col-6"><h4 class="cart-heading">Total Recurring</h4></div>
+                            <div class="col-6 text-right">
+                                <div v-for="(amount, period) in recurring_amounts" v-if="amount > 0" class="mb-1">
+                                    ${ money(amount, true) }/${ period }
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+
+                    <div class="mt-4" v-if="referral_sources.enabled">
+                        <label>How'd you hear about us?</label>
+                        <div class="form-group" :class="{ 'has-errors': errors.has('pay.referral_source') }">
+                            <div class="btn-group-toggle mb-3">
+                                <label v-for="source in referral_sources.sources" class="btn btn-outline-dark mr-1 mb-1" :class="{ active: referral_source == source }">
+                                    <input type="radio" name="referral_source" v-model="referral_source" :value="source" v-validate.initial="'required'"> ${ source }
+                                </label><label v-if="referral_sources.allow_other" class="btn btn-outline-dark mr-1 mb-1" :class="{ active: referral_source == 'other' }">
+                                    <input type="radio" name="referral_source" v-model="referral_source" value="other"> Other
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group labelify" v-if="referral_source == 'other'" :class="{ 'has-errors': errors.has('pay.referral_source_other') }">
+                            <label for="inputReferralSourceOther">Other</label>
+                            <input id="inputReferralSourceOther"  ref="referral_source_other" type="text" class="form-control" name="referral_source_other" v-model="input.referral_source" v-validate.initial="'required'" style="max-width:200px;" maxlength="45">
+                        </div>
+                    </div>
+                </div>
+
+                <div v-if="cart.requires_payment" class="col-12 col-md-5 border-left mb-4">
+                    <nav class="nav nav nav-pills nav-fill mb-3">
+                        <template v-if="supportedPaymentType('credit_card')">
+                            <button v-if="paysafe_checkout_available" type="button" class="btn btn-link nav-item nav-link" :class="{active: input.payment_type == 'credit_card'}" @click="input.payment_type = 'credit_card'">
+                                <i class="fa fa-credit-card"></i> Credit / Debit
+                            </button>
+                            <button v-else type="button" class="btn btn-link nav-item nav-link" :class="{active: input.payment_type == 'credit_card'}" @click="input.payment_type = 'credit_card'">
+                                <i class="fa fa-credit-card"></i> Credit / Debit
+                            </button>
+                        </template>
+                        <button v-if="supportedPaymentType('bank_account')" type="button" class="btn btn-link nav-item nav-link" :class="{active: input.payment_type == 'bank_account'}" @click="input.payment_type = 'bank_account'">
+                            <i class="fa fa-bank"></i> Bank
+                        </button>
+                        <button v-if="supportedPaymentType('paypal') && paypal_available" type="button" class="btn btn-link nav-item nav-link" :class="{active: input.payment_type == 'paypal'}" @click="input.payment_type = 'paypal'">
+                            <i class="fa fa-paypal"></i> PayPal
+                        </button>
+                        <button v-if="cart.account && cart.account.payment_methods.length" type="button" class="btn btn-link nav-item nav-link" :class="{active: input.payment_type == 'payment_method'}" @click="input.payment_type = 'payment_method'">
+                            <i class="fa fa-user"></i> My Methods
+                        </button>
+                    </nav>
+                    <template v-if="input.payment_type == 'credit_card'">
+                        <template v-if="paysafe_checkout_available">
+                            <div v-if="!cart.recurring_item_count" class="form-group mt-2 text-center">
+                                <div class="custom-control custom-checkbox d-inline-block">
+                                    <input type="checkbox" id="inputSavePaymentMethod" class="custom-control-input" name="save_payment_method" v-model="payment.save_payment_method">
+                                    <label class="custom-control-label" for="inputSavePaymentMethod">
+                                        <i class="fa fa-lock"></i> Save this payment information securely.
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="text-center text-muted">
+                                Continue below<br>
+                                <i class="fa fa-chevron-down fa-1x"></i>
+                            </div>
+                        </template>
+                        <credit-card v-else>
+                            <div class="form-group labelify payment-number-input" :class="{ 'has-errors': errors.has('pay.number') }">
+                                <label for="inputPaymentNumber">Credit Card Number</label>
+                                <payment-field field="inputPaymentNumber">
+                                    <the-mask id="inputPaymentNumber" type="tel" class="form-control monospace" maxlength="19" placeholder="0000 0000 0000 0000" mask="#### #### #### ####" name="number" v-model="payment.number" v-validate.initial="'required|credit_card'" x-autocompletetype="cc-number" autocompletetype="cc-number" autocorrect="off" spellcheck="off" autocapitalize="off"></the-mask>
+                                </payment-field>
+                                <div v-if="payment.number_type" class="payment-number-input__types">
+                                    <span>
+                                        <img alt="" v-if="payment.number_type == 'american-express'" src="https://cdn.givecloud.co/npm/payment-icons@1.1.0/min/flat/amex.svg">
+                                        <img alt="" v-if="payment.number_type == 'diners-club'" src="https://cdn.givecloud.co/npm/payment-icons@1.1.0/min/flat/diners.svg">
+                                        <img alt="" v-if="payment.number_type == 'discover'"    src="https://cdn.givecloud.co/npm/payment-icons@1.1.0/min/flat/discover.svg">
+                                        <img alt="" v-if="payment.number_type == 'jcb'"         src="https://cdn.givecloud.co/npm/payment-icons@1.1.0/min/flat/jcb.svg">
+                                        <img alt="" v-if="payment.number_type == 'maestro'"     src="https://cdn.givecloud.co/npm/payment-icons@1.1.0/min/flat/maestro.svg">
+                                        <img alt="" v-if="payment.number_type == 'master-card'" src="https://cdn.givecloud.co/npm/payment-icons@1.1.0/min/flat/mastercard.svg">
+                                        <img alt="" v-if="payment.number_type == 'unionpay'"    src="https://cdn.givecloud.co/npm/payment-icons@1.1.0/min/flat/unionpay.svg">
+                                        <img alt="" v-if="payment.number_type == 'visa'"        src="https://cdn.givecloud.co/npm/payment-icons@1.1.0/min/flat/visa.svg">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-6 labelify" :class="{ 'has-errors': errors.has('pay.exp') }">
+                                    <label for="inputPaymentExpiry">MM / YY</label>
+                                    <payment-field field="inputPaymentExpiry">
+                                        <the-mask id="inputPaymentExpiry" type="tel" class="form-control monospace" maxlength="7" placeholder="MM / YY" mask="## / ##" @input.native="paymentExpiry($event)" name="exp" v-model="payment.exp" v-validate.initial="'required|expiration_date'" x-autocompletetype="cc-exp" autocompletetype="cc-exp" autocorrect="off" spellcheck="off" autocapitalize="off"></the-mask>
+                                    </payment-field>
+                                </div>
+                                <div class="form-group col-6 labelify" :class="{ 'has-errors': errors.has('pay.cvv') }">
+                                    <label for="inputPaymentCVV">CVV</label>
+                                    <payment-field field="inputPaymentCVV">
+                                        <the-mask id="inputPaymentCVV" type="tel" class="form-control monospace" maxlength="4" placeholder="000" mask="####" name="cvv" v-model="payment.cvv" v-validate.initial="'required|cvv:' + payment.number_type" x-autocompletetype="cc-csc" autocompletetype="cc-csc" autocorrect="off" spellcheck="off" autocapitalize="off"></the-mask>
+                                    </payment-field>
+                                </div>
+                            </div>
+                            <div v-if="!cart.recurring_item_count" class="form-group">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" id="inputSavePaymentMethod" class="custom-control-input" name="save_payment_method" v-model="payment.save_payment_method">
+                                    <label class="custom-control-label" for="inputSavePaymentMethod">
+                                        <i class="fa fa-lock"></i> Save this payment information securely.
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="supported-cardtypes mt-1 text-center">
+                                <strong>We support:</strong>
+                                <img alt="" v-if="supportedCardType('american-express')" src="https://cdn.givecloud.co/npm/payment-icons@1.1.0/min/flat/amex.svg">
+                                <img alt="" v-if="supportedCardType('diners-club')" src="https://cdn.givecloud.co/npm/payment-icons@1.1.0/min/flat/diners.svg">
+                                <img alt="" v-if="supportedCardType('discover')"    src="https://cdn.givecloud.co/npm/payment-icons@1.1.0/min/flat/discover.svg">
+                                <img alt="" v-if="supportedCardType('jcb')"         src="https://cdn.givecloud.co/npm/payment-icons@1.1.0/min/flat/jcb.svg">
+                                <img alt="" v-if="supportedCardType('maestro')"     src="https://cdn.givecloud.co/npm/payment-icons@1.1.0/min/flat/maestro.svg">
+                                <img alt="" v-if="supportedCardType('master-card')" src="https://cdn.givecloud.co/npm/payment-icons@1.1.0/min/flat/mastercard.svg">
+                                <img alt="" v-if="supportedCardType('unionpay')"    src="https://cdn.givecloud.co/npm/payment-icons@1.1.0/min/flat/unionpay.svg">
+                                <img alt="" v-if="supportedCardType('visa')"        src="https://cdn.givecloud.co/npm/payment-icons@1.1.0/min/flat/visa.svg">
+                            </div>
+                        </credit-card>
+                    </template>
+                    <template v-else-if="input.payment_type == 'bank_account' && gocardless_available">
+                        <div class="text-center text-muted">
+                            <i class="fa fa-bank fa-4x bottom-gutter m-2"></i><br>
+                            Continue below<br>
+                            <i class="fa fa-chevron-down fa-1x"></i>
+                        </div>
+                    </template>
+                    <template v-else-if="input.payment_type == 'bank_account'">
+                        <div class="form-group labelify payment-number-input" :class="{ 'has-errors': errors.has('pay.account_holder_type') }">
+                            <label for="inputPaymentAccountHolderType">Account Holder Type</label>
+                            <select id="inputPaymentAccountHolderType" class="form-control" name="account_holder_type" v-model="payment.account_holder_type" v-validate.initial="'required'" autocomplete="off">
+                                <option></option>
+                                <option value="personal">Individual</option>
+                                <option value="business">Company</option>
+                            </select>
+                        </div>
+                        <div class="form-group labelify payment-number-input" :class="{ 'has-errors': errors.has('pay.account_type') }">
+                            <label for="inputPaymentAccountType">Account Type</label>
+                            <select id="inputPaymentAccountType" class="form-control" name="account_type" v-model="payment.account_type" v-validate.initial="'required'" autocomplete="off">
+                                <option></option>
+                                <option value="checking">Checking</option>
+                                <option value="savings">Savings</option>
+                            </select>
+                        </div>
+                        <template v-if="input.currency_code == 'CAD'">
+                            <div class="form-row">
+                                <div class="form-group col-6 labelify" :class="{ 'has-errors': errors.has('pay.transit_number') }">
+                                    <label for="inputPaymentTransitNumber">Transit #</label>
+                                    <the-mask id="inputPaymentTransitNumber" type="tel" class="form-control monospace" maxlength="5" placeholder="00000" mask="#####" name="transit_number" v-model="payment.transit_number" v-validate.initial="'required'" autocorrect="off" spellcheck="off" autocapitalize="off"></the-mask>
+                                </div>
+                                <div class="form-group col-6 labelify" :class="{ 'has-errors': errors.has('pay.institution_number') }">
+                                    <label for="inputPaymentInstitutionNumber">Institution #</label>
+                                    <the-mask id="inputPaymentInstitutionNumber" type="tel" class="form-control monospace" maxlength="3" placeholder="000" mask="###" name="institution_number" v-model="payment.institution_number" v-validate.initial="'required'" autocorrect="off" spellcheck="off" autocapitalize="off"></the-mask>
+                                </div>
+                            </div>
+                        </template>
+                        <template v-else>
+                            <div class="form-group labelify" :class="{ 'has-errors': errors.has('pay.routing_number') }">
+                                <label for="inputPaymentRoutingNumber">Routing #</label>
+                                <input id="inputPaymentRoutingNumber" type="number" class="form-control monospace" placeholder="0000000" name="routing_number" v-model="payment.routing_number" v-validate.initial="'required'" autocorrect="off" spellcheck="off" autocapitalize="off">
+                            </div>
+                        </template>
+                        <div class="form-group labelify" :class="{ 'has-errors': errors.has('pay.account_number') }">
+                            <label for="inputPaymentAccountNumber">Account #</label>
+                            <input id="inputPaymentAccountNumber" type="number" class="form-control monospace" minlength="4" maxlength="17" placeholder="0000000" name="account_number" v-model="payment.account_number" v-validate.initial="'required'" autocorrect="off" spellcheck="off" autocapitalize="off">
+                        </div>
+                        <div class="form-group">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" id="inputPaymentAchAgreeTos" class="custom-control-input" name="ach_agree_tos" v-model="payment.ach_agree_tos" v-validate.initial="'required'">
+                                <label class="custom-control-label" for="inputPaymentAchAgreeTos">
+                                    <small class="text-muted">By completing this purchase, you authorize us to charge the account above for the amount specified in the Total field.</small>
+                                </label>
+                            </div>
+                        </div>
+                        <div v-if="!cart.recurring_item_count" class="form-group mt-2">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" id="inputSavePaymentMethod" class="custom-control-input" name="save_payment_method" v-model="payment.save_payment_method">
+                                <label class="custom-control-label" for="inputSavePaymentMethod">
+                                    <i class="fa fa-lock"></i> Save this payment information securely.
+                                </label>
+                            </div>
+                        </div>
+                    </template>
+                    <template v-else-if="input.payment_type == 'paypal'">
+                        <div v-if="!cart.recurring_item_count" class="form-group mt-2 text-center">
+                            <div class="custom-control custom-checkbox d-inline-block">
+                                <input type="checkbox" id="inputSavePaymentMethod" class="custom-control-input" name="save_payment_method" v-model="payment.save_payment_method">
+                                <label class="custom-control-label" for="inputSavePaymentMethod">
+                                    <i class="fa fa-lock"></i> Save this payment information securely.
+                                </label>
+                            </div>
+                        </div>
+                        <div class="text-center text-muted">
+                            <i class="fa fa-cc-paypal fa-4x bottom-gutter"></i><br>
+                            Continue below<br>
+                            <i class="fa fa-chevron-down fa-1x"></i>
+                        </div>
+                    </template>
+                    <template v-else-if="input.payment_type == 'payment_method'">
+                        <p><strong>Pay with:</strong></p>
+                        <div v-for="method in cart.account.payment_methods" class="custom-control custom-checkbox d-inline-block">
+                            <input type="radio" :id="'inputSavePaymentMethod' + method.id" class="custom-control-input" name="payment_method" v-model="payment.payment_method" :value="method.id">
+                            <label class="custom-control-label" :for="'inputSavePaymentMethod' + method.id">
+                                <template v-if="method.card">
+                                    ${ method.card.brand } ending in ${ method.card.last4 }
+                                    <small>(${ method.card.exp_month }/${ method.card.exp_year })</small>
+                                </template>
+                                <template v-else-if="method.bank">
+                                    ${ method.bank.name } account ending in ${ method.bank.last4 }
+                                </template>
+                                <template v-else>
+                                    ${ method.name } - ${ method.account_number }
+                                </template>
+                            </label>
+                        </div>
+                    </template>
+                </div>
+                <div v-else class="col-12 col-md-5 border-left mb-4">
+                    <div class="alert-info alert">
+                        <i class="fa fa-exclamation-circle"></i> No payment information is required
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="mb-3 text-center">
+                        
+
+                        <div v-if="requiresCaptcha" class="mb-4 text-center">
+                            <vue-recaptcha class="d-inline-block" ref="recaptcha" sitekey="6Le_5R8TAAAAAOF5Yhh9gKB7wgo87ktsMeVYgN4w" @verify="input.recaptcha_response = $event"></vue-recaptcha>
+                        </div>
+
+                        <template v-if="cart.requires_payment">
+                            <template v-if="input.payment_type == 'paypal'">
+                                <paypal-button @click="submitPayForm"></paypal-button>
+                            </template>
+                            <template v-else>
+                                <button id="btn-pay" type="submit" class="btn btn-lg btn-pill btn-success mb-2 px-5">
+                                    <i class="fa fa-lock"></i> Complete Payment
+                                </button>
+                            </template>
+                        </template>
+                        <template v-else>
+                            <button id="btn-pay" type="submit" class="btn btn-lg btn-pill btn-success mb-2 px-5">
+                                <i class="fa fa-lock"></i> Complete Transaction
+                            </button>
+                            <div class="text-center">
+                                <small>You will not be charged.</small>
+                            </div>
+                        </template>
+                    </div>
+                    
+                        <div class="text-center">
+                            
+<div class="gc-lock">
+    Encrypted &amp; Secure. Give with Confidence.<br><span class="text-muted"><a href="https://givecloud.co/?utm_source=upstreamint&amp;utm_medium=gc-secure" target="_blank" rel="noopener">Powered by Givecloud.</a></span>
+</div>
+
+                        </div>
+                    
+                </div>
+            </form>
+        </template>
+        <div v-if="isUpdatingCart" class="align-middle d-flex align-items-center justify-content-center" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(255, 255, 255, 0.5);">
+            <img class="spinner spinner-spin" src="static/global/assets/spinner.gif" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="payment-overlay" tabindex="-1" role="dialog" aria-label="Processing" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+
+                <img class="spinner spinner-spin d-none" src="static/global/assets/spinner.gif" alt="">
+                <img class="spinner spinner-success d-none" src="static/global/assets/success.gif" alt="">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  <footer>
+  
+    <div class="section-light">
+      <div class="container">
+        <div class="row">
+          
+            <div class="col-md-6 col-lg-4 gutter-bottom">
+              
+              <p><img src="https://cdn.givecloud.co/s/files/1/0000/0569/files/big-logo-white-trans-2.png" alt="" width="109" height="85" /></p>
+<p>&nbsp;</p>
+<p><span style="color: #254151; letter-spacing: 2px;"><strong>&nbsp;</strong></span></p>
+            </div>
+            <div class="col-md-6 col-lg-2 gutter-bottom">
+              
+              <p style="font-size: 1.5rem;"><span style="color: #254151;"><strong>Follow Us</strong></span></p>
+<p><a href="https://www.facebook.com/upstreaminternational/"><span style="color: #254151; letter-spacing: 2px;"><strong>FACEBOOK</strong></span></a></p>
+<p><a href="https://www.instagram.com/upstreaminternational/"><span style="color: #254151; letter-spacing: 2px;"><strong>INSTAGRAM</strong></span></a></p>
+            </div>
+            <div class="col-md-6 col-lg-2 gutter-bottom">
+              
+              <p style="font-size: 1.5rem;"><a href="https://upstreamint.givecloud.co/funds"><span style="color: #254151;"><strong>Get Involved</strong></span></a></p>
+<p><span style="color: #254151; letter-spacing: 2px;"><strong><a href="account/register.html">LOG IN</a><br /></strong></span></p>
+<p><a href="https://upstreamint.givecloud.co/sponsor-children"><span style="color: #254151; letter-spacing: 2px;"><strong>SPONSOR A CHILD</strong></span></a></p>
+            </div>
+            <div class="col-md-6 col-lg-4 gutter-bottom">
+              
+              <p style="font-size: 1.5rem;"><a><span style="color: #254151;"><strong>Get Upstream updates!</strong></span></a></p>
+<p><form name="" method="post" action="ds/form/signup.html" data-success-message="" data-fail-message="">
+    <input name="payload" type="hidden" value="ZXlKcGRpSTZJblp5Ymt4NE5ETmhNSEEwUW5Oa0swa3hMM0p5Y0ZFOVBTSXNJblpoYkhWbElqb2lMM0o0SzFKb2N6QnZWazFNTTJ4Uk4wSjNZMkZ4ZGpoblJpdGxMMmhCZEdFMldVTmpVbVF4UkdoYVZWRlhTRXQ2VW1OblZrSnZVbGROY1ZRNWRUbGlXVUpVWlhoSGRWQnlOVVppWkhjcmFHbHVjelJKVlROWlZqbFlWeloxUVRKaFVWcFJWM2M1WmtkV1JqSXJORGhLVm1RMVJUVkVTMlpHVW1OdWMzbENjVzVMVmxSU2EwaGtNVkpLT0RsSFZFbDJkRFpNTTJWRWRtbE1VWFZHYTJ0WGQzaHBTbkZuV1RodVZFeHdNbVF3WkhsYWRIQXdWbXRWV2xjd2NEaFRLMmxGV2pjNFpISXZOVmxaTjI5SFpuQkZWa2d4UVRaSVVUMDlJaXdpYldGaklqb2lOVGd6T0RsaE5UTmlPV00yTVRCbVpHWmxZMlUwTURabFlUY3daR1E0TnpnMFpqSmtNVGMzTldVeFpUSXdZekZrT0RnNVlXSm1NVEEzTjJSbU0yVTNNQ0o5">
+    </p>
+<div class="row">
+<div class="form-group col-6"><input class="form-control" name="first_name" required="" type="text" value="" placeholder="First Name" /></div>
+<div class="form-group col-6"><input class="form-control" name="last_name" required="" type="text" value="" placeholder="Last Name" /></div>
+</div>
+<div class="form-group"><input class="form-control" name="email" required="" type="email" value="" placeholder="Email" /></div>
+<div class="form-group">
+<div class="custom-control custom-radio"><input id="input-email_opt_in" class="custom-control-input" name="email_opt_in" type="radio" value="1" /> <label class="custom-control-label" for="input-email_opt_in"> Send me emails and updates.</label></div>
+</div>
+<p><div style="width:304px;margin:20px auto;"><div class="g-recaptcha" data-sitekey="6Le_5R8TAAAAAOF5Yhh9gKB7wgo87ktsMeVYgN4w" data-id="0"></div><script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=en"></script></div></p>
+<div class="form-group text-center"><button class="btn btn-primary btn-lg" type="submit">Sign Me Up!</button></div>
+<p>
+</form></p>
+<p>&nbsp;</p>
+<p><span style="color: #254151; letter-spacing: 2px;"><strong><a href="https://upstreamint.givecloud.co/legal">GIFT ACCEPTANCE POLICY</a></strong></span></p>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  
+  <div class="section-light section-sm text-sm">
+    
+      <div class="gutter-bottom text-center">
+        
+        
+<div class="gc-lock">
+    Encrypted &amp; Secure. Give with Confidence.<br><span class="text-muted"><a href="https://givecloud.co/?utm_source=upstreamint&amp;utm_medium=gc-secure" target="_blank" rel="noopener">Powered by Givecloud.</a></span>
+</div>
+
+      </div>
+    
+    <div class="container">
+      <div class="d-flex">
+        <div class="p-0">
+          <p style="text-align: center; width: 100%; position: absolute; left: 0; right: 0; margin: 10px 0 0 0;" data-mce-style="text-align: center; width: 100%; position: absolute; left: 0; right: 0; margin: 10px 0 0 0;"><span style="font-size: 8pt; letter-spacing: 2px; color: #254151;" data-mce-style="font-size: 8pt; letter-spacing: 2px; color: #254151;">© UPSTREAM INTERNATIONAL</span></p>
+        </div>
+        <div class="ml-auto p-0">
+          
+          <ul class="nav">
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  
+
+
+  
+<script src="assets/js/core-527528270e.js"></script>
+<script>
+Givecloud.setConfig({"host":"upstreamint.org","name":"Upstream International","account_id":null,"cart_id":"221479F0AA","csrf_token":"06PXUzzDmb3kXyBIWyzlvouwpa90INPxaVmbKNVL","currency":{"code":"USD","symbol":"$"},"currencies":[{"name":"US Dollar","code":"USD","symbol":"$","rate":1}],"provider":"nmi","gateways":{"credit_card":"nmi","bank_account":"nmi","paypal":false},"supported_cardtypes":["visa","master-card","american-express","discover"],"processing_fees":{"cover":true,"amount":0.3,"rate":2.89},"account_types":[{"id":1,"name":"Individual","is_organization":false},{"id":2,"name":"Organization","is_organization":true}],"captcha_type":"recaptcha","requires_captcha":true,"recaptcha_site_key":"6Le_5R8TAAAAAOF5Yhh9gKB7wgo87ktsMeVYgN4w","title_options":["Mr","Mrs"],"referral_sources":{"enabled":true,"sources":["Friend\/Family","Website","Facebook","Instagram","Event"],"allow_other":"1"},"billing_country_code":"US","shipping_country_code":"US","force_country":null,"pinned_countries":["CA","US"],"account":null,"gift_aid":false});
+</script>
+<script type="text/javascript" src="https://cdn.givecloud.co/combine/npm/bluebird@3.5.1/js/browser/bluebird.min.js,npm/sugar@2.0.4/dist/sugar.min.js,npm/bootstrap@4.3.1/dist/js/bootstrap.bundle.js,npm/bootstrap-datepicker@1.7.1/dist/js/bootstrap-datepicker.min.js,npm/es5-shim@4.5.13/es5-shim.min.js,npm/@fancyapps/fancybox@3.4.2/dist/jquery.fancybox.min.js,npm/owl.carousel@2.3.3/dist/owl.carousel.min.js,npm/headroom.js@0.9.4/dist/headroom.min.js,npm/odometer@0.4.8/odometer.min.js,npm/jquery.appear@1.0.1/jquery.appear.min.js,npm/jquery-match-height@0.7.2/dist/jquery.matchHeight.min.js,npm/js-cookie@2.2.0/src/js.cookie.min.js"></script>
+<script type="text/javascript" src="https://cdn.givecloud.co/combine/npm/flipclock@0.7.7/compiled/flipclock.min.js,npm/ladda@1.0.6/dist/spin.min.js,npm/ladda@1.0.6/dist/ladda.min.js,npm/macy@2.5.0/dist/macy.min.js,npm/modal-video@2.4.2/js/jquery-modal-video.min.js,npm/quill@1.3.6/dist/quill.min.js,npm/urijs@1.19.1/src/URI.min.js,npm/velocity-animate@1.5.2/velocity.min.js,npm/velocity-animate@1.5.2/velocity.ui.min.js,npm/vue@2.5.22/dist/vue.min.js,npm/vue-async-computed@3.5.1/dist/vue-async-computed.min.js,npm/vue-toasted@1.1.26/dist/toasted.min.js"></script>
+<script type="text/javascript" src="https://cdn.givecloud.co/combine/npm/vue-the-mask@0.11.1/dist/vue-the-mask.js,npm/vee-validate@2.1.5/dist/vee-validate.min.js,npm/wow.js@1.1.2/dist/wow.min.js"></script>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?onload=vueCaptchaApiLoaded&amp;render=explicit" async defer></script>
+<script type="text/javascript" src="-/static/global/scripts/components/choose-amount-v=527528270e.js"></script>
+<script type="text/javascript" src="-/static/global/scripts/components/radio-v=527528270e.js"></script>
+<script type="text/javascript" src="-/static/global/scripts/theme-v=527528270e.js"></script>
+<script type="text/javascript" src="-/static/global/scripts/templates/cart-v=527528270e.js"></script>
+<script type="text/javascript" src="-/static/global/scripts/templates/product-v=527528270e.js"></script>
+<script type="text/javascript" src="-/static/global/scripts/templates/product-checkout-v=527528270e.js"></script>
+<script type="text/javascript" src="-/static/global/scripts/templates/multi-item-checkout-v=527528270e.js"></script>
+<script type="text/javascript" src="-/static/global/scripts/templates/split-fund-donations-v=527528270e.js"></script>
+<script type="text/javascript" src="-/static/global/scripts/templates/accounts-profile-v=527528270e.js"></script>
+<script type="text/javascript" src="-/static/global/scripts/templates/accounts-payment-methods-v=527528270e.js"></script>
+<script type="text/javascript" src="-/static/global/scripts/maps/index-v=527528270e.js"></script>
+<script type="text/javascript" src="-/static/global/scripts/maps/marker-clusters-v=527528270e.js"></script>
+
+
+
+
+
+
+
+
+    <div id="cookie-alert">
+        <div class="cookie-alert-container alert alert-dismissible text-center" role="alert">
+            We use cookies to ensure you get the best experience on our website.
+            <a href="http://cookiesandyou.com/" target="_blank" rel="noopener" class="ml-2 btn btn-outline-light btn-sm">Learn more</a>
+            <button type="button" class="ml-2 btn btn-light btn-sm" aria-label="Close">I agree</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+<img src="https://www.upstreamint.org/cds-zP6sxF3wLDKu1pWpwrrFiE8kSBIiusjn7FDoC2S4.gif" alt="" style="position:absolute;visibility:hidden;width:1px!important;height:1px!important;">
+<img src="https://upstreamint.donorshops.com/cds-zP6sxF3wLDKu1pWpwrrFiE8kSBIiusjn7FDoC2S4.gif" alt="" style="position:absolute;visibility:hidden;width:1px!important;height:1px!important;">
+<img src="https://upstreamint.givecloud.co/cds-zP6sxF3wLDKu1pWpwrrFiE8kSBIiusjn7FDoC2S4.gif" alt="" style="position:absolute;visibility:hidden;width:1px!important;height:1px!important;">
+
+</body>
+
+</html>
